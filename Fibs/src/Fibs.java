@@ -7,6 +7,15 @@ public class Fibs {
         System.out.println("The " + fterm + "th term of the Fibonacci sequence is: " + fsum);
     }
 
+    /**
+     * Returns an int value calculated as term 'n' of the Fibonacci Sequence
+     * <p>
+     * This method uses recursion to calculate later terms of the Fibonacci
+     * sequence by adding the two previous terms.
+     *
+     * @param n an int value enumerating the term of the sequence to calculate
+     * @return the calculated term of the Fibonacci Sequence
+     */
     public static int fib(int n) {
         if (n == 0)
             return 0;
