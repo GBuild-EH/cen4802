@@ -40,6 +40,7 @@ public class Recur {
                         System.out.println(factor + " factorial equals " + factorial);
                         break;
                     case 3:
+                        logger.config("Shutting down");
                         flag = false;
                         break;
                     default:
